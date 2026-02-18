@@ -1,0 +1,21 @@
+// led[n] jest dla STD_LOGIC_VECTOR 
+// led jest dla STD_LOGIC
+
+IO_LOC "led" 10;
+IO_PORT "led" PULL_MODE=UP DRIVE=8;
+IO_LOC "button" 4;
+IO_PORT "button" PULL_MODE=UP;
+
+
+//IO_LOC "led[5]" 16;
+//IO_PORT "led[5]" PULL_MODE=UP DRIVE=8;
+//IO_LOC "led[4]" 15;
+//IO_PORT "led[4]" PULL_MODE=UP DRIVE=8;
+//IO_LOC "led[3]" 14;
+//IO_PORT "led[3]" PULL_MODE=UP DRIVE=8;
+//IO_LOC "led[2]" 13;
+//IO_PORT "led[2]" PULL_MODE=UP DRIVE=8;
+//IO_LOC "led[1]" 11;
+//IO_PORT "led[1]" PULL_MODE=UP DRIVE=8;
+//IO_LOC "led[0]" 10;
+
